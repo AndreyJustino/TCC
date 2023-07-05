@@ -1,0 +1,119 @@
+body {
+  background: rgb(82,113,255);
+  background: -moz-linear-gradient(90deg, rgba(82,113,255,1) 0%, rgba(92,225,230,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(82,113,255,1) 0%, rgba(92,225,230,1) 100%);
+  background: linear-gradient(90deg, rgba(82,113,255,1) 0%, rgba(92,225,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5271ff",endColorstr="#5ce1e6",GradientType=1);
+
+}
+
+#picture__input {
+  display: none;
+}
+
+.picture {
+  width: 400px;
+  aspect-ratio: 16/9;
+  background: #ddd;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: color 300ms ease-in-out, background 300ms ease-in-out;
+  outline: none;
+  overflow: hidden;
+}
+
+.picture:hover {
+  color: #777;
+  background: #ccc;
+}
+
+.picture:active {
+  border-color: turquoise;
+  color: turquoise;
+  background: #eee;
+}
+
+.picture:focus {
+  color: #777;
+  background: #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.picture__img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 230px;
+  width: 500px;
+}
+
+
+.card{
+  text-align: center;
+  margin-top: 3%;
+
+  color: #000;;
+  
+  border-radius: 2%;
+
+  background: rgba(204, 204, 204, 0.76);
+  
+  height: 700px;
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+
+  box-shadow: 3px 3px 15px rgb(1, 4, 29);
+  
+}
+
+.teste{
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+button{
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 10px;
+}
+
+
+.myButton {
+	box-shadow:inset 0px -7px 0px 0px #3dc21b;
+  
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:14px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+}
+
+.idInput{
+  height: 24px;
+  width: 220px;
+}
